@@ -1,0 +1,82 @@
+<!DOCTYPE html>  
+<html>  
+    <head>  
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.5.1/chart.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <!-- Add the CSS file -->
+        <title>GQ man data</title> 
+        <!-- Website name --> 
+    </head>  
+    <body>  
+        <div class="sidebar">
+            <ul class="nan_list">
+                <li>
+                    <a href="C:\Users\nookty\Desktop\GQ\Trying\Page1\index.html">
+                        <i class='bx bxs-grid-alt' ></i>
+                        <span class="link_name">
+                            Overview
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="C:\Users\nookty\Desktop\GQ\Trying\Page2\index.html">
+                        <i class='bx bxs-grid-alt' ></i>
+                        <span class="link_name">
+                            User
+                        </span>
+                    </a>
+                     
+                </li>
+                <li>
+                    <a href="C:\Users\nookty\Desktop\GQ\Trying\Page3\index.html">
+                        <i class='bx bxs-grid-alt' ></i>
+                        <span class="link_name">
+                            Report
+                        </span>
+                    </a>
+                     
+                </li>
+            </ul>
+        </div>
+        <script src="NavBar.js"></script>
+        <div class="home_content">
+            <div>
+                <p class="header" id="fonts">The GQ Gentleman Search 2023 Dashboard<br>GQ MAN Profile Report</p>
+                
+                <div class="NameBar">
+                    <div style="float: left">
+                        Name:
+                    </div>
+                    <div class="selectBox">
+                        <select id="coffeeSales" class="selectSelect">
+                        </select>
+                        
+                    </div>
+                </div>
+                <div class="left">
+                    <div class="chartHeader">
+                        Vote Scores - Daily Report
+                    </div>
+                    <div>
+                        <canvas id="DailyVoteChart" height="400"></canvas>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="chartHeader">
+                        Top Users - Vote Scores
+                    </div>
+                    <div>
+                        <canvas id="DailyScoreChart" height="400" ></canvas>
+                    </div>
+                </div>
+                <div id="data-container"></div>
+                <script src="data.js"></script>
+                <script src="Chart2.js"></script>
+                <script src="Chart1.js"></script>
+                <script src="DropDownMenu.js"></script>
+            </div>  
+        </div>
+    </body>
+</html>

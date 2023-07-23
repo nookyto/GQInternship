@@ -1,0 +1,88 @@
+<!DOCTYPE html>  
+<html>  
+    <head>  
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.5.1/chart.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <!-- Add the CSS file -->
+        <title>GQ man data</title> 
+        <!-- Website name --> 
+    </head>  
+    <body>  
+        <div class="sidebar">
+            <ul class="nan_list">
+                <li>
+                    <a href="C:\Users\nookty\Desktop\GQ\Trying\Page1\index.html">
+                        <i class='bx bxs-grid-alt' ></i>
+                        <span class="link_name">
+                            Overview
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="C:\Users\nookty\Desktop\GQ\Trying\Page2\index.html">
+                        <i class='bx bxs-grid-alt' ></i>
+                        <span class="link_name">
+                            User
+                        </span>
+                    </a>
+                     
+                </li>
+                <li>
+                    <a href="C:\Users\nookty\Desktop\GQ\Trying\Page3\index.html">
+                        <i class='bx bxs-grid-alt' ></i>
+                        <span class="link_name">
+                            Report
+                        </span>
+                    </a>
+                     
+                </li>
+            </ul>
+        </div>
+        <script src="NavBar.js"></script>
+        <div class="home_content">
+            <div>
+                <p class="header" id="fonts">The GQ Gentleman Search 2023 Dashboard<br>User Report</p>
+            </div>
+            <div class="leftside">
+                <div>
+                    <div class="nMaleUser topRowBoxes">
+                        Male Users<br>(number)
+                    </div>
+                    <div class="nFemaleUser topRowBoxes">
+                        Female Users<br>(number)
+                    </div>
+                    <div class="nOtherUser topRowBoxes">
+                        Other Users<br>(number)
+                    </div>
+                </div>
+                <div>
+                    <div class="Age middleRowData">
+                        Age<br>Below 18%<br>18-24%<br>25-34%<br>35-44%<br>45-54%<br>55-64 %<br>65 %
+                    </div>
+                    <div class="Occupation middleRowData">
+                        Occupation<br>XXXX%<br>XXXX %<br>XXXX %<br>XXXX %<br>XXXX %<br>XXXX %<br>XXXX %
+
+                    </div>
+                    <div class="TopCities middleRowData">
+                        Top cities<br>XXXX%<br>XXXX %<br>XXXX %<br>XXXX %<br>XXXX %<br>XXXX %<br>XXXX %
+                    </div>
+                </div>
+                <div>
+                    <div class="Education lastRowData">
+                        Education<br>XXXX%<br>XXXX %<br>XXXX %<br>XXXX %<br>XXXX %<br>XXXX %<br>XXXX %
+                    </div>
+                    <div class="Income lastRowData">
+                        Income<br>XXXX%<br>XXXX %<br>XXXX %<br>XXXX %<br>XXXX %<br>XXXX %<br>XXXX %
+                    </div>
+                </div>
+            </div>
+            <div class="rightside">
+                Interests
+                <canvas id="myChart"></canvas>
+            </div>
+            <script src ="Piechart.js"></script>
+        </div>
+    </body>
+</html>

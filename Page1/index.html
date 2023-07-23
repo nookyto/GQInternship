@@ -1,0 +1,108 @@
+<!DOCTYPE html>  
+<html>  
+    <head>  
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.5.1/chart.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
+        <script src="playabledata.js"></script>
+        <script src="Boxes.js"></script>
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <!-- Add the CSS file -->
+        <title>GQ man data</title> 
+        <!-- Website name --> 
+    </head>  
+    <body>  
+        <div class="sidebar">
+            <ul class="nan_list">
+                <li>
+                    <a href="C:\Users\nookty\Desktop\GQ\Trying\Page1\index.html">
+                        <i class='bx bxs-grid-alt' ></i>
+                        <span class="link_name">
+                            Overview
+                        </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="C:\Users\nookty\Desktop\GQ\Trying\Page2\index.html">
+                        <i class='bx bxs-grid-alt' ></i>
+                        <span class="link_name">
+                            User
+                        </span>
+                    </a>
+                     
+                </li>
+                <li>
+                    <a href="C:\Users\nookty\Desktop\GQ\Trying\Page3\index.html">
+                        <i class='bx bxs-grid-alt' ></i>
+                        <span class="link_name">
+                            Report
+                        </span>
+                    </a>
+                     
+                </li>
+            </ul>
+        </div>
+        <script src="NavBar.js"></script>
+        <div class="home_content">
+            <div>
+                <p class="header" id="fonts">The GQ Gentleman Search 2023 Dashboard <br> Overview</p>
+                <!-- Title -->
+            </div> 
+            <div>  <!-- Page1 Div -->
+                <div class="leftSide"> <!-- Div on the left side -->
+                    <div class="boxes">
+                        <div class="totalVotes topRowBoxes">
+                            Total Votes <br>
+                            <span id="numberVotes">number</span>
+                        </div>
+                        <div class="totalUsers topRowBoxes">
+                            Total Users <br>
+                            <span id="numberUser">number</span>
+                        </div>
+
+
+                        <div class="totalShares topRowBoxes">
+                            Total Shares <br>
+                            <span id="numberShares">number</span>
+                        </div>
+                    </div>
+                    <style type="text/css"></style>
+                        <!-- End Styles -->
+                        <table id="myTable">
+                            <thead>
+                                <tr>
+                                    <th>ID</th>
+                                    <th>Name</th>
+                                    <th>Votes</th>
+                                </tr>
+                            </thead>
+                            <tbody id="tableBody"></tbody>
+                        </table>
+                        <script src="Table.js"></script>
+                </div>
+                <div class="rightSide">
+                    <div id="chartHeader">
+                        Vote Scores - Daily Report
+                    </div>
+                    <div>
+                        <canvas id="DailyVoteChart"></canvas>
+                    </div>
+                    <div id="chartHeader">
+                        User - Daily Report
+                    </div>
+                    <div>
+                        <canvas id="DailyUserChart"></canvas>
+                    </div>
+                    <div id="chartHeader">
+                        Share Action - Daily Report
+                    </div>
+                    <div>
+                        <canvas id="DailySharesChart"></canvas>
+                    </div>
+
+                    <script src ="Charts.js"></script>
+                </div>  
+            </div>  
+        </div>
+    </body>
+</html>
