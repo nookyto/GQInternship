@@ -30,7 +30,7 @@ const DailySharesData = {
     }]
 };
 
-const config = 
+const config1 = 
 {
     type: 'line',
     data: DailyVoteData , 
@@ -62,18 +62,83 @@ const config =
     }
 
 };
+const config2 = 
+{
+    type: 'line',
+    data: DailyUserData , 
+    borderColor:  'rgb(205, 242, 56)',
+    options: 
+    {
+        plugins:
+        {
+            legend:
+            {
+                display: false
+            },
+        },
+        scales: 
+        {
+            x:
+            {
+                type: 'time',
+                time:{
+                    unit: 'day'
+                }
+            },
+            y:
+            {
+                beginAtZero: true
+            }
+        },
+        maintainAspectRatio: false
+    }
+
+};
+const config3 = 
+{
+    type: 'line',
+    data: DailySharesData , 
+    borderColor:  'rgb(205, 242, 56)',
+    options: 
+    {
+        plugins:
+        {
+            legend:
+            {
+                display: false
+            },
+        },
+        scales: 
+        {
+            x:
+            {
+                type: 'time',
+                time:{
+                    unit: 'day'
+                }
+            },
+            y:
+            {
+                beginAtZero: true
+            }
+        },
+        maintainAspectRatio: false
+    }
+
+};
+
 
 const chart1 = new Chart(
     document.getElementById('DailyVoteChart'),
-    config
+    config1
 );
 
 const chart2 = new Chart(
     document.getElementById('DailyUserChart'),
-    config
+    config2
 );
 
 const chart3 = new Chart(
     document.getElementById('DailySharesChart'),
-    config
+    config3
 );
