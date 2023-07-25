@@ -10,7 +10,7 @@ DailyVoteChart = new Chart(ctx, {
     labels: ['1 Jun', '2 Jun', '3 Jun', '4 Jun', '5 Jun', '6 Jun', '7 Jun', '8 Jun', '9 Jun', '10 Jun', '11 Jun', '12 Jun', '13 Jun', '14 Jun', '15 Jun', '16 Jun', '17 Jun', '18 Jun', '19 Jun', '20 Jun', '21 Jun', '22 Jun', '23 Jun', '24 Jun', '25 Jun', '26 Jun', '27 Jun', '28 Jun', '29 Jun', '30 Jun'],
     datasets: [{
       label: '# of Votes',
-      data: [21, 83, 35, 63, 52, 12, 42, 99, 76, 28, 66, 14, 59, 77, 18, 87, 39, 71, 25, 48, 92, 54, 33, 69, 81, 16, 44, 96, 61, 23],
+      data: [104, 83, 35, 63, 52, 12, 42, 99, 76, 28, 66, 14, 59, 77, 18, 87, 39, 71, 25, 48, 92, 54, 33, 69, 81, 16, 44, 96, 61, 23],
       borderWidth: 1,
       backgroundColor: 'rgba('+red+', '+green+', '+blue+', 0.3)',
       borderColor:'rgba('+red+', '+green+', '+blue+', 1)',
@@ -30,7 +30,7 @@ DailyVoteChart = new Chart(ctx, {
       y: {
         beginAtZero: true,
         min: 0,
-        max:100
+        max:3000
       }
     },
     maintainAspectRatio: false

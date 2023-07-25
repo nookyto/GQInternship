@@ -1,5 +1,5 @@
-var totalNumberOfVotes = 14332;
-var totalNumberOfUsers = 14332;
+var totalNumberOfVotes = "3,217,960";
+var totalNumberOfUsers = "14,332";
 var totalNumberOfShares = 8235;
 
 var NameList = [
@@ -21,7 +21,7 @@ const green = 242;
 const blue = 56;
  
 var DailyVote = [
-    {x: '2021-06-25' ,y: 30}, 
+    {x: '2021-06-25' ,y: 6430}, 
     {x: '2021-06-26' ,y: 50}, 
     {x: '2021-06-27' ,y: 70}, 
     {x: '2021-06-28' ,y: 20}, 
@@ -35,7 +35,7 @@ var DailyVote = [
 ];
 
 var DailyUser = [
-  {x: '2021-06-25' ,y: 60}, 
+  {x: '2021-06-25' ,y: 636}, 
   {x: '2021-06-26' ,y: 20}, 
   {x: '2021-06-27' ,y: 80}, 
   {x: '2021-06-28' ,y: 90}, 
