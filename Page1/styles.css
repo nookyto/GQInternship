@@ -147,9 +147,20 @@ tr:nth-child(even)
 {
   background-color: #D6EEEE;
 }
-td
-{
-  padding-left: 20px;
+
+#myTable th:first-child,
+#myTable td:first-child {
+    text-align: center;
+}
+
+#myTable th:nth-child(3),
+#myTable td:nth-child(3) {
+    text-align: center;
+}
+
+#myTable th:nth-child(2),
+#myTable td:nth-child(2) {
+    padding-left: 10px;
 }
 .tableNumber
 {

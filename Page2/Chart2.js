@@ -1,28 +1,35 @@
-// Bar chart
-new Chart(document.getElementById("DailyScoreChart"), {
-    type: 'bar',
-    data: {
-      labels: ["user1", "user2", "user3", "user4", "user5","user6", "user7", "user8", "user9", "user10"],
-      datasets: [
-        {
-            fill: true,
-            backgroundColor: 'rgba('+red+', '+green+', '+blue+', 0.3)',
-            borderColor:'rgba('+red+', '+green+', '+blue+', 1)',
-            data: [832, 568, 234, 710, 419, 985, 671, 173, 523, 899]
-        }
-      ]
-    },
-    options: {
-        plugins:
-        {
-            legend:
-            {
-                display: false
-            },
-        },
-      title: {
-        display: true,
+const data = {
+  labels: ["January", "February", "March", "April", "May"],
+  datasets: [
+      {
+          label: "Monthly Sales",
+          data: [100, 200, 150, 300, 250],
+          borderColor: "rgba(75, 192, 192, 1)",
+          backgroundColor: "rgba(75, 192, 192, 0.2)",
       },
-      maintainAspectRatio: false
+      {
+        type: 'line',
+        label: 'Line Dataset',
+        data: [150, 120, 90, 200],
     }
+  ],
+};
+
+// Configuration options
+const options = {
+  responsive: true,
+  maintainAspectRatio: false,
+  scales: {
+      y: {
+          beginAtZero: true,
+      },
+  },
+};
+
+// Get the canvas element and create the line chart
+const ctx2 = document.getElementById("votesGraph").getContext("2d");
+const myLineChart = new Chart(ctx2, {
+  type: "line",
+  data: data,
+  options: options,
 });

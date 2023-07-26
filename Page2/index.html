@@ -5,6 +5,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.5.1/chart.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <meta charset="UTF-8">
         <!-- Add the CSS file -->
         <title>GQ man data</title> 
         <!-- Website name --> 
@@ -50,7 +51,7 @@
                         Name:
                     </div>
                     <div class="selectBox">
-                        <select id="coffeeSales" class="selectSelect">
+                        <select id="PersonSelector" class="selectSelect">
                         </select>
                         
                     </div>
@@ -65,10 +66,10 @@
                 </div>
                 <div class="right">
                     <div class="chartHeader">
-                        Top Users - Vote Scores
+                    Vote Scores - Daily Report
                     </div>
                     <div>
-                        <canvas id="DailyScoreChart" height="400" ></canvas>
+                        <canvas id="votesGraph" height="400"></canvas>
                     </div>
                 </div>
                 <div id="data-container"></div>
