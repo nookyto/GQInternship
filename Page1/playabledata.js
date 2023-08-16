@@ -5,7 +5,7 @@ var totalNumberOfShares = "148,529";
 var NameList = [
     { id: 1, name: "ชวินทร์วุฒิ ก้องธรนินทร์", voteCount: 33044},
     { id: 2, name: "คณิน สมศิริวัฒนา", voteCount: 3097  },
-    { id: 3, name: "ภาณุวัฒน์ โสประดิษฐ", voteCount: 2379076  },
+    { id: 3, name: "ภาณุวัฒน์ โสประดิษฐ", voteCount: 2379076 },
     { id: 4, name: "มนตรี ภัทรจิตร์ภิญโญ", voteCount: 1980},
     { id: 5, name: "ธนัฐ ธนจิระชัย", voteCount: 4313  },
     { id: 6, name: "จุฑาวัช พุทธรัตน์", voteCount: 18570  },

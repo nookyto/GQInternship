@@ -138,41 +138,22 @@ body
 {
   margin-left: 4.5%;
 }
-
-.middleRowData
+.firstmiddleRowData
 {
-  padding: 25px 0;
+  margin: 10%;
+  margin-top: 130px;
+}
+.Age
+{
   float:left;
-  width: 30.33%;
-  height: 100px;
-  color: #000;
-  margin-top: 20px;
-  height: 200px;
 }
-
-.Occupation
+.Agepercent
 {
-  margin-left: 4.5%;
-}
-
-.TopCities
-{
-  margin-left: 4.5%;
-}
-
-.lastRowData
-{
-  padding: 25px 0;
   float:left;
-  width: 30.33%;
-  height: 100px;
-  color: #000;
-  margin-top: 20px;
+  margin-left: 3%;
+  margin-right: 40px;
 }
-.Income
-{
-  margin-left: 4.5%;
-}
+
 
 .rightside
 {
